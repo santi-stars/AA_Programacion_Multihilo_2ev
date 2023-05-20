@@ -1,5 +1,6 @@
 package com.santibf.reactive;
 
+import com.santibf.reactive.controller.AppController;
 import com.santibf.reactive.util.R;
 
 import javafx.application.Application;
@@ -13,8 +14,8 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(R.getUI("INTRODUCIR :FXML"));
-        //     loader.setController(new AppController());
+        loader.setLocation(R.getUI("main-cat_app.fxml"));
+        loader.setController(new AppController());
         ScrollPane mainPane = loader.load();
         Scene scene = new Scene(mainPane);
         primaryStage.setScene(scene);
