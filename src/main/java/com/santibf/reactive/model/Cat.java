@@ -11,15 +11,10 @@ import java.util.List;
 @NoArgsConstructor
 public class Cat {
 
+    private String _id;
     private List<String> tags;
+    private String owner;
     private String createdAt;
     private String updatedAt;
-    private boolean validated;
-    private String owner;
-    private String file;
-    private String mimetype;
-    private long size;
-    private String _id;
-    private String url;
 
 }

@@ -13,6 +13,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(R.getUI("main-cat_app.fxml"));
         loader.setController(new AppController());
@@ -21,6 +22,7 @@ public class App extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("Reactive Cats");
         primaryStage.show();
+
     }
 
     @Override
@@ -31,4 +33,5 @@ public class App extends Application {
     public static void main(String[] args) {
         launch();
     }
+
 }

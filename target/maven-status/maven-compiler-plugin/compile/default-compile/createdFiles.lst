@@ -8,7 +8,6 @@ com\santibf\reactive\model\CatFacts.class
 com\santibf\reactive\util\ZipFile.class
 com\santibf\reactive\service\CataasServiceAPI.class
 com\santibf\reactive\task\CatFactTask.class
-com\santibf\reactive\model\CatFact.class
-com\santibf\reactive\task\CatImageTask.class
 com\santibf\reactive\util\R.class
 com\santibf\reactive\App.class
+com\santibf\reactive\task\CatUrlImageTask.class
